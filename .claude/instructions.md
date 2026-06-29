@@ -1,10 +1,6 @@
 # React
 
-**Scope**: All code EXCEPT `/compiler/` (compiler has its own instructions).
-
-## Project Structure
-
-| Directory | Purpose |
+**Scope**: All code EXCEPT `/compiler/` (compry | Purpose |
 |-----------|---------|
 | `/packages/` | Publishable packages (react, react-dom, scheduler, etc.) |
 | `/scripts/` | Build, test, and development scripts |
