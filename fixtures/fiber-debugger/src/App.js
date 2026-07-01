@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import Draggable from 'react-draggable';
-import ReactNoop from 'react-noop-renderer';
-import Editor from './Editor';
-import Fibers from './Fibers';
+iport Draggable from 'react-draggable';
+import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import Editor from './Editor';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import Editor from './Editor';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';
+import Editor from './Editor';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers';import Editor from './Editor';import Fibers from './Fibers';import ReactNoop from 'react-noop-renderer';import Fibers from './Fibers'import Editor from './Editor';
+import Fibers from './Fibers';import Fibers from './Fibers';import Fibers from './Fibers';
 import describeFibers from './describeFibers';
 
 // The only place where we use it.

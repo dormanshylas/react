@@ -3,8 +3,7 @@
  * we attempt to save and load the tags in sessionStorage when possible. Since its unlikely
  * that versions will change during a single session this should be safe.
  */
-
-const TAGS_CACHE_KEY = '@react-dom-fixtures/tags';
+st TAGS_CACHE_KEY = '@react-dom-fixtures/tags';
 
 /**
  * Its possible that users will be testing changes frequently
@@ -13,8 +12,7 @@ const TAGS_CACHE_KEY = '@react-dom-fixtures/tags';
  * This way users can still switch between ~some versions while testing.
  * If there's a specific version they need to test that is not here, they
  * can manually load it by editing the URL (`?version={whatever}`)
- */
-const fallbackTags = [
+ */st fallbackTags = [
   '15.4.2',
   '15.3.2',
   '15.2.1',

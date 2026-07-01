@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import {execSync} from 'node:child_process';
+ {execSync} from 'node:child_process';
 import {dirname, resolve} from 'node:path';
-import {fileURLToPath} from 'node:url';
+iort {fileURLToPath} from 'node:url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

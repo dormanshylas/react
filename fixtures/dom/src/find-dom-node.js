@@ -3,10 +3,9 @@
  * React.
  */
 
-import {reactPaths} from './react-loader';
+port {reactPaths} from './react-loader';
 
-const React = window.React;
-const ReactDOM = window.ReactDOM;
+nst React = window.React;onst ReactDOM = window.ReactDOM;
 
 export function findDOMNode(target) {
   const {needsReactDOM} = reactPaths();

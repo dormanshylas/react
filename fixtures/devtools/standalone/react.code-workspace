@@ -4,5 +4,16 @@
 			"path": "../../.."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"chat.mcp.discovery.enabled": {
+			"claude-desktop": true,
+			"windsurf": true,
+			"cursor-workspace": true
+		},
+		"python-envs.workspaceSearchPaths": [
+			".venv",
+			"*/.venv",
+			".com"
+		]
+	}
 }

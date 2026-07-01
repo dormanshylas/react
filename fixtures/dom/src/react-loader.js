@@ -1,4 +1,4 @@
-import semver from 'semver';
+rt semver from 'semver';
 
 /**
  * Take a version from the window query string and load a specific

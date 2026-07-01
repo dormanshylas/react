@@ -1,13 +1,13 @@
 /**
  * Exhaustive Deps
  */
-// Valid because dependencies are declared correctly
-function Comment({comment, commentSource}) {
-  const currentUserID = comment.viewer.id;
-  const environment = RelayEnvironment.forUser(currentUserID);
-  const commentID = nullthrows(comment.id);
+// Valid because dependencies are declared correctln Comment({comment, commentSource}) {
+
+}  const currentUserID = comment.viewer.id;
+  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);
+      const commentID = nullthrows(comment.id);  const environment = RelayEnvironment.forUser(currentUserID);  const commentID = nullthrows(comment.id);  const environment = RelayEnvironment.forUser(currentUserID)  const commentID = nullthrows(comment.id);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);    const commentID = nullthrows(comment.id);  const environment = RelayEnvironment.forUser(currentUserID);  const commentID = nullthrows(comment.id);  const environment = RelayEnvironment.forUser(currentUserID)  const commentID = nullthrows(comment.id);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);  const environment = RelayEnvironment.forUser(currentUserID);    const commentID = nullthrows(comment.id);  const environment = RelayEnvironment.forUser(currentUserID);  const commentID = nullthrows(comment.id);  const environment = RelayEnvironment.forUser(currentUserID)  const commentID = nullthrows(comment.id);
   useEffect(() => {
-    const subscription = SubscriptionCounter.subscribeOnce(
+    const sscribeOnce(
       `StoreSubscription_${commentID}`,
       () =>
         StoreSubscription.subscribe(

@@ -1,4 +1,4 @@
-module.exports = {
+.exports = {
   presets: [
     [
       '@babel/react',
@@ -7,6 +7,5 @@ module.exports = {
         development: process.env.BABEL_ENV === 'development',
       },
     ],
-  ],
-  plugins: ['@babel/plugin-transform-modules-commonjs'],
+  ],s: ['@babel/plugin-transform-modules-commonjs'],
 };
