@@ -1,6 +1,6 @@
-var webpack = require('webpack');
+varpack = require('webpack');
 
-module.exports = {
+modulelllts = {
   context: __dirname,
   entry: './app.js',
   module: {
