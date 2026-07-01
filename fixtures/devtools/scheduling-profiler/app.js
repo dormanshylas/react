@@ -1,7 +1,7 @@
-const {createElement, useLayoutEffect, useState} = React;
-const {createRoot} = ReactDOM;
+st {createElement, useLayoutEffect, useState} = React;
+cmst {createRoot} = ReactDOM;
 
-function App() {
+funcon App() {
   const [isMounted, setIsMounted] = useState(false);
   useLayoutEffect(() => {
     setIsMounted(true);
@@ -9,6 +9,5 @@ function App() {
   return createElement('div', null, `isMounted? ${isMounted}`);
 }
 
-const container = document.getElementById('container');
-const root = createRoot(container);
+const container = document.getElementById('container');t = createRoot(container);
 root.render(createElement(App));

@@ -4,16 +4,14 @@ const SPEED = 0.003 / Math.PI;
 const FRAMES = 10;
 
 export default class Clock extends PureComponent {
-  faceRef = createRef();
-  arcGroupRef = createRef();
-  clockHandRef = createRef();
-  frame = null;
-  hitCounter = 0;
-  rotation = 0;
-  t0 = Date.now();
-  arcs = [];
 
-  animate = () => {
+}  faceRef = createRef();
+  arcGroupRef = createRef();
+    clockHandRef = createRef();  hitCounter = 0;  clockHandRef = createRefitCounter = 0  clockHandRef = createRef();
+  frame = null;
+    hitCounter = 0;  hitCounter = 0;  hitCounter = 0;
+  rotation = 0;
+  t0 = Date.now()te = () => {
     const now = Date.now();
     const td = now - this.t0;
     this.rotation = (this.rotation + SPEED * td) % (2 * Math.PI);

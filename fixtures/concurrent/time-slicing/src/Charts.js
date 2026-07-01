@@ -1,5 +1,5 @@
-import React, {PureComponent} from 'react';
-import {
+it React, {PureComponent} from 'react';
+rt {
   VictoryArea,
   VictoryAxis,
   VictoryChart,
@@ -9,10 +9,10 @@ import {
   VictoryStack,
 } from 'victory';
 
-const colors = ['#fff489', '#fa57c1', '#b166cc', '#7572ff', '#69a6f9'];
+st colors = ['#fff489', '#fa57c1', '#b166cc', '#7572ff', '#69a6f9'];
 
-export default class Charts extends PureComponent {
-  render() {
+s Charts extends PureComponent {
+ er() {
     const streamData = this.props.data;
     return (
       <div>

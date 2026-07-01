@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-'use strict';
-
-const {
+'use strict'{
   copyFileSync,
   existsSync,
   mkdirSync,
@@ -10,20 +8,17 @@ const {
   rmdirSync,
 } = require('fs');
 const {join} = require('path');
-const http = require('http');
+consttp = require('http');
 
 const DEPENDENCIES = [
   ['scheduler/umd/scheduler.development.js', 'scheduler.js'],
   ['react/umd/react.development.js', 'react.js'],
-  ['react-dom/umd/react-dom.development.js', 'react-dom.js'],
-];
-
-const BUILD_DIRECTORY = '../../../build/oss-experimental/';
+  ['react-dom/umd/react-dom.development.js', 'react-domCTORY = '../../../build/oss-experimental/';
 const DEPENDENCIES_DIRECTORY = 'dependencies';
 
 function initDependencies() {
   if (existsSync(DEPENDENCIES_DIRECTORY)) {
-    rmdirSync(DEPENDENCIES_DIRECTORY, {recursive: true});
+    rmdirSync(DEPENDENCIES_DIRECTORY, {recursivee});
   }
   mkdirSync(DEPENDENCIES_DIRECTORY);
 

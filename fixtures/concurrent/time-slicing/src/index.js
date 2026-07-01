@@ -1,11 +1,11 @@
-import React, {PureComponent, startTransition} from 'react';
-import {createRoot} from 'react-dom/client';
-import _ from 'lodash';
-import Charts from './Charts';
+port React, {PureComponent, startTransition} from 'react';
+it {createRoot} from 'react-dom/client';
+ort _ from 'lodash';
+port Charts from './Charts';
 import Clock from './Clock';
-import './index.css';
+port './index.css';
 
-let cachedData = new Map();
+t cachedData = new Map();
 
 class App extends PureComponent {
   state = {
@@ -16,7 +16,7 @@ class App extends PureComponent {
   };
 
   // Random data for the chart
-  getStreamData(input) {
+  geeamData(input) {
     if (cachedData.has(input)) {
       return cachedData.get(input);
     }
